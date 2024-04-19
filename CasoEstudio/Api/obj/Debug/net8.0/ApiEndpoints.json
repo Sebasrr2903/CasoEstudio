@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Api.Controllers.ArticulosController",
+    "Method": "List",
+    "RelativePath": "api/Articulos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Controllers.ArticulosController",
+    "Method": "Create",
+    "RelativePath": "api/Articulos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "articulo",
+        "Type": "Domain.Articulos.CreateArticulo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

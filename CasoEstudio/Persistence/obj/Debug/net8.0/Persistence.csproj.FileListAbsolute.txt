@@ -1,0 +1,164 @@
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\bin\Debug\net8.0\Application.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\bin\Debug\net8.0\Shared.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\bin\Debug\net8.0\Shared.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CopyComplete
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\bin\Debug\net8.0\Application.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\bin\Debug\net8.0\Shared.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\bin\Debug\net8.0\Shared.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CopyComplete
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\bin\Debug\net8.0\Application.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\bin\Debug\net8.0\Shared.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\bin\Debug\net8.0\Shared.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CopyComplete
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\bin\Debug\net8.0\Application.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\bin\Debug\net8.0\Shared.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\bin\Debug\net8.0\Shared.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CopyComplete
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\bin\Debug\net8.0\Application.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\bin\Debug\net8.0\Shared.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\bin\Debug\net8.0\Shared.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CopyComplete
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\bin\Debug\net8.0\Application.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\bin\Debug\net8.0\Shared.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\bin\Debug\net8.0\Shared.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\bin\Debug\net8.0\Application.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\bin\Debug\net8.0\Shared.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\bin\Debug\net8.0\Shared.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\bin\Debug\net8.0\Application.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\bin\Debug\net8.0\Shared.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\bin\Debug\net8.0\Shared.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\ref\Persistence.dll

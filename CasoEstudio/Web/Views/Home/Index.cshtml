@@ -1,0 +1,83 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<IdentityUser> SignInManager;
+@using Domain.Articulos;
+@model List<ArticuloDTO>
+
+@{
+    ViewData["Title"] = "Articulos";
+}
+  @if (SignInManager.IsSignedIn(User))
+ {
+      <a class="btn btn-success" asp-controller="Home" asp-action="Create">Crear Articulo</a>
+ }
+
+@foreach (var Articulo in Model)
+{
+    <hr />
+    <div class="card">
+        <div class="card-header">
+            @Articulo.Title
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <button class="btn btn-light ml-2" id="likeButton">
+                    <i class="fas fa-thumbs-up"></i>
+                    <span id="likeCount">0</span>
+                </button>
+                <button class="btn btn-light ml-2" id="dislikeButton">
+                    <i class="fas fa-thumbs-down"></i>
+                    <span id="dislikeCount">0</span>
+                </button>
+            }
+        </div>
+        <div class="card-body">
+
+            <h6> @Articulo.Header</h6>
+
+        </div>
+        <div class="card-header">
+            Comentarios 
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <a class="btn btn-success" asp-controller="Articulos" asp-action="Create">Crear Comentario</a>
+            }
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <footer class="blockquote-footer"> TEXTO DE LA PERSONA A COMENTAR VA AQUI</footer>
+            </blockquote>
+        </div>
+
+
+    </div>
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        let likeCount = 0;
+        let dislikeCount = 0;
+        let hasLiked = false;
+        let hasDisliked = false;
+
+        $('#likeButton').click(function () {
+            if (!hasLiked && !hasDisliked) {
+               
+                likeCount++;
+                hasLiked = true;
+
+                $('#likeCount').text(likeCount);
+            }
+        });
+
+   
+        $('#dislikeButton').click(function () {
+            if (!hasLiked && !hasDisliked) {
+          
+                dislikeCount++;
+                hasDisliked = true;
+ 
+                $('#dislikeCount').text(dislikeCount);
+            }
+        });
+    });
+</script>

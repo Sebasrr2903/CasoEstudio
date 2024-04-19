@@ -1,0 +1,121 @@
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 2\Ufide\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 2\Ufide\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 2\Ufide\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 2\Ufide\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 2\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 2\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 2\Ufide\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 2\Ufide\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 2\Ufide\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 2\Ufide\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 2\Ufide\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 3\Ufide\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 3\Ufide\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 3\Ufide\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 3\Ufide\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 3\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 3\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 3\Ufide\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 3\Ufide\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 3\Ufide\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 3\Ufide\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 3\Ufide\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 4\Ufide\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 4\Ufide\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 4\Ufide\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 4\Ufide\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 4\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 4\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 4\Ufide\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 4\Ufide\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 4\Ufide\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 4\Ufide\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 4\Ufide\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 5\Ufide\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 6\Ufide\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 7(Pendiente)\Ufide\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 8\Ufide\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 10\Ufide\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\fpere\Escritorio\Programación Avanzada en Web\Semana 11\Ufide\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Ufide\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Domain\obj\Debug\net8.0\ref\Domain.dll
