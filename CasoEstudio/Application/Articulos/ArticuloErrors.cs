@@ -16,6 +16,8 @@ namespace Application.Articulos
 		public static Error NotCreated() =>
 			new Error("Articulos.NOT_CREATED", "The Articulo was not  created.");
 
-	
-	}
+        public static Error AlreadyDone() =>
+        new Error("Articulos.ALREADY_DONE", "The Articulo already has this comment.");
+
+    }
 }

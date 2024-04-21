@@ -70,7 +70,6 @@ namespace Api.Controllers
             var result = _service.Create(articulo);
             if (result.IsSuccess)
             {
-				//return Created(); ***No funciona***
 				return StatusCode(StatusCodes.Status201Created);
 			}
 
@@ -85,6 +84,11 @@ namespace Api.Controllers
             int idComment = comment.IdComment;
 
             var result = _service.AddComment(Id, idComment);
+
+            if (result.IsSuccess)
+            {
+                return StatusCode(StatusCodes.Status201Created);
+            }
 
             return StatusCode(StatusCodes.Status500InternalServerError);
         }

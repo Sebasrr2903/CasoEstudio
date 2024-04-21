@@ -53,25 +53,26 @@ namespace Application.Articulos
         public Result AddComment(int id, int idComment)
         {
             // Obtener el artículo
-            var result = Get(id, true);
-
+            dynamic result = Get(id, true);
             if (!result.IsSuccess)
             {
-                return result;
+                return Result.Failure<Articulo>(ArticuloErrors.NotFound());
+            }
+            var articulo = result.Value as Articulo;
+            if (articulo.Comentario.Exists(e => e.IdC == idComment))  //Verificar que no se inserten dos veces el mismo comentario
+            {
+                return Result.Failure<Articulo>(ArticuloErrors.AlreadyDone());
             }
 
-            var articulo = result.Value;
-
-            var comentarioResult = _comentarioService.Get(idComment);
-
-            if (!comentarioResult.IsSuccess)
+            //Obtener comentario
+            result = _comentarioService.Get(idComment);
+            if (!result.IsSuccess)
             {
                 return Result.Failure<Comentario>(ComentarioErrors.NotFound());
             }
 
-            //var comentario = comentarioResult.Value;
-
-            articulo.Comentario.Add(new Comentario(idComment));
+            var comentario = result.Value as Comentario;
+            articulo.Comentario.Add(comentario);
 
             _repository.Update(articulo);
             _repository.Save();
