@@ -38,6 +38,20 @@ namespace Persistence.Repositories
 			return query.ToList();
 		}
 
+        public T Get(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includes)
+        {
+            IQueryable<T> query = _entities;
+            query = query.Where(predicate);
+
+            if (includes.Any())
+            {
+                query = includes.Aggregate
+                    (query, (current, include) => current.Include(include));
+            }
+
+            return query.FirstOrDefault();
+        }
+
         public void Insert(T entity)
         {
             _entities.Add(entity);
@@ -49,6 +63,10 @@ namespace Persistence.Repositories
             _context.Save();
         }
 
+        public void Update(T entity)
+        {
+            _entities.Update(entity);
+        }
 
     }
 }

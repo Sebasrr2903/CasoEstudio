@@ -1,6 +1,4 @@
 ﻿using Application.Contexts;
-using Application.Articulos;
-using Domain.Articulos;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Contexts;
 using Persistence.Repositories;

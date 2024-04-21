@@ -10,7 +10,7 @@ namespace Application.Comentarios
 		public CreateComentarioValidator()
 		{
 	
-			RuleFor(o => o.Comentario).Length(5, 100);
+			RuleFor(o => o.Comment).Length(5, 100);
 
 		}
 	}

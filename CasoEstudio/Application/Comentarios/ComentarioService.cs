@@ -35,5 +35,18 @@ namespace Application.Comentarios
 			return Result.Success<IList<Comentario>>(_repository.GetAll());
 
 		}
-	}
+
+        public Result<Comentario> Get(int id)
+        {
+            var comentario = _repository.Get(s => s.Id == id);
+
+			if(comentario == null)
+			{
+				return Result.Failure<Comentario>(ComentarioErrors.NotFound());
+			}
+
+			return Result.Success<Comentario>(comentario);
+				
+        }
+    }
 }

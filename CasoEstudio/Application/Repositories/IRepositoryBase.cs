@@ -13,9 +13,14 @@ namespace Application.Repositories
     {
 		List<T> GetAll(params Expression<Func<T, object>>[] includes);
 
-		void Insert(T entity);
+        T Get(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includes);
 
- 
+
+        void Insert(T entity);
+
+        void Update(T entity);
+
+
 
         void Save();
 

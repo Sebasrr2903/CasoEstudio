@@ -12,8 +12,11 @@ namespace Application.Articulos
     {
         Result<IList<Articulo>> List(bool includeComments = false);
 
+        Result<Articulo> Get(int Id, bool includeComments = false);
 
-		Result Create(CreateArticulo createArticulo);
+        Result Create(CreateArticulo createArticulo);
+
+        Result AddComment(int id, int idC);
 
      
     }

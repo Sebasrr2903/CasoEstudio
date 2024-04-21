@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Domain.Articulos;
+using Domain.Comentarios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,8 +18,12 @@ namespace Application.Articulos
             CreateMap<Articulo, ArticuloDTO>()
                 .ConstructUsing(source => 
                     new ArticuloDTO(source.Id, source.Header, source.Body));
-        
-		}
+
+            CreateMap<AddComment, Comentario>()
+                .ConstructUsing(source =>
+                    new Comentario(source.Id));
+
+        }
 
 	}
 }

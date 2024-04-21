@@ -1,5 +1,7 @@
 ﻿using Application.Articulos;
+using Application.Comentarios;
 using Domain.Articulos;
+using Domain.Comentarios;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,11 +11,11 @@ namespace Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ArticulosController : ControllerBase
+    public class ComentariosController : ControllerBase
     {
-        private IArticuloService _service;
+        private IComentarioService _service;
 
-        public ArticulosController(IArticuloService service)
+        public ComentariosController(IComentarioService service)
         {
             _service = service;
         }
@@ -31,24 +33,11 @@ namespace Api.Controllers
             return StatusCode(StatusCodes.Status500InternalServerError);
         }
 
-		[HttpGet("withcomments")]
-		public IActionResult ListWithComments()
-		{
-			var result = _service.List(true);
-
-			if (result.IsSuccess)
-			{
-				return Ok(result.Value);
-			}
-
-			return StatusCode(StatusCodes.Status500InternalServerError);
-		}
-
 
 		[HttpPost]
-        public IActionResult Create([FromBody] CreateArticulo articulo)
+        public IActionResult Create([FromBody] CreateComentario comentario)
         {
-            var result = _service.Create(articulo);
+            var result = _service.Create(comentario);
             if (result.IsSuccess)
             {
 				//return Created(); ***No funciona***
@@ -57,20 +46,6 @@ namespace Api.Controllers
 
             return StatusCode(StatusCodes.Status500InternalServerError);
         }
-
-        [HttpPost]
-        [Route("{Id}/addcomment")]
-
-        public IActionResult AddComment([FromRoute] int Id, [FromBody] AddComment comment)
-        {
-            var result = _service.AddComment(Id, comment.Id);
-
-            return StatusCode(StatusCodes.Status500InternalServerError);
-        }
-
-
-
-
 
     }
 }

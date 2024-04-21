@@ -12,8 +12,10 @@ namespace Application.Comentarios
 	public interface IComentarioService
 	{
 		Result<IList<Comentario>> List();
+        Result<Comentario> Get(int Id);
 
-		Result Create(CreateComentario createComentario);
+
+        Result Create(CreateComentario createComentario);
 
 	}
 }
