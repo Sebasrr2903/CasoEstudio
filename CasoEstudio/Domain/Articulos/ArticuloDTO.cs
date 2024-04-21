@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Comentarios;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,15 +13,17 @@ namespace Domain.Articulos
         {
         }
 
-        public ArticuloDTO(int id, string title, string header)
+        public ArticuloDTO(int id, string header, string body)
         {
             Id = id;
-            Title = title;
             Header = header;
+            Body = body;
         }
 
         public int Id { get; set; }
-        public string Title { get; set; }
-        public string Header { get;  set; }
+        public string Header { get; set; }
+        public string Body { get;  set; }
+
+        public List<ComentarioDTO> Comentario { get; set; }
     }
 }

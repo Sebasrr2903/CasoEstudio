@@ -11,12 +11,13 @@
       <a class="btn btn-success" asp-controller="Home" asp-action="Create">Crear Articulo</a>
  }
 
+
 @foreach (var Articulo in Model)
 {
     <hr />
     <div class="card">
         <div class="card-header">
-            @Articulo.Title
+            @Articulo.Header
             @if (SignInManager.IsSignedIn(User))
             {
                 <button class="btn btn-light ml-2" id="likeButton">
@@ -31,7 +32,7 @@
         </div>
         <div class="card-body">
 
-            <h6> @Articulo.Header</h6>
+            <h6> @Articulo.Body</h6>
 
         </div>
         <div class="card-header">
@@ -41,11 +42,25 @@
                 <a class="btn btn-success" asp-controller="Articulos" asp-action="Create">Crear Comentario</a>
             }
         </div>
-        <div class="card-body">
-            <blockquote class="blockquote mb-0">
-                <footer class="blockquote-footer"> TEXTO DE LA PERSONA A COMENTAR VA AQUI</footer>
-            </blockquote>
-        </div>
+        
+            @if (Articulo.Comentario != null && Articulo.Comentario.Any())
+            {
+                @foreach (var comentario in Articulo.Comentario)
+            {
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <footer class="blockquote-footer">@comentario.Fecha.ToShortDateString() - @comentario.Comentario</footer>
+                    </blockquote>
+                </div>
+                }
+            }
+            else
+            {
+            <div class="card-body">
+                <p>No hay comentarios.</p>
+            </div>
+            }
+        
 
 
     </div>

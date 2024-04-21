@@ -10,9 +10,10 @@ namespace Application.Articulos
 {
     public interface IArticuloService
     {
-        Result<IList<Articulo>> List();
+        Result<IList<Articulo>> List(bool includeComments = false);
 
-        Result Create(CreateArticulo createArticulo);
+
+		Result Create(CreateArticulo createArticulo);
 
      
     }

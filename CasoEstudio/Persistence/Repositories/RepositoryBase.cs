@@ -25,12 +25,18 @@ namespace Persistence.Repositories
             _entities = _context.Set<T>();
         }
 
-        public List<T> GetAll()
-        {
+		public List<T> GetAll(params Expression<Func<T, object>>[] includes)
+		{
 			IQueryable<T> query = _entities;
 
+			if (includes.Any())
+			{
+				query = includes.Aggregate
+					(query, (current, include) => current.Include(include));
+			}
+
 			return query.ToList();
-        }
+		}
 
         public void Insert(T entity)
         {

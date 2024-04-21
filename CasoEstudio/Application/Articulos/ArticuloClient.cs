@@ -10,6 +10,7 @@ using AutoMapper;
 using Domain.Configuration;
 using Microsoft.Extensions.Options;
 using Shared;
+using Domain.Comentarios;
 
 namespace Application.Articulos
 {
@@ -30,13 +31,16 @@ namespace Application.Articulos
         public async Task<List<ArticuloDTO>> List()
         {
             var content = await _client.GetStringAsync
-                (_endpoints.Where(w => w.Name.Equals("Articulos", StringComparison.OrdinalIgnoreCase)).FirstOrDefault().Uri);
+                (_endpoints.Where(w => w.Name.Equals("Articulos", StringComparison.OrdinalIgnoreCase)).FirstOrDefault().Uri + "/withcomments");
             var Articulos = JsonSerializer.Deserialize<List<Articulo>>(content);
 
             return _mapper.Map<List<ArticuloDTO>>(Articulos);
         }
 
-		public async Task<Result> Create(CreateArticulo createArticulo)
+
+
+
+        public async Task<Result> Create(CreateArticulo createArticulo)
 		{
 			var content = new StringContent(JsonSerializer.Serialize(createArticulo), Encoding.UTF8, "application/json");
 			var result = await _client.PostAsync

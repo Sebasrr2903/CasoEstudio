@@ -51,7 +51,7 @@ namespace Web.Controllers
 			{
 				var result = await _accountService.Signup(model.Email, model.Password);
                 if (result.IsSuccess)
-                {
+                {					
 					return RedirectToAction("index", "home");
 				}
 

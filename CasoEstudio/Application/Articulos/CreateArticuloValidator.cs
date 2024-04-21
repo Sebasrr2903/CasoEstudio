@@ -8,8 +8,8 @@ namespace Application.Articulos
         public CreateArticuloValidator()
         {
          
-            RuleFor(o => o.Title).Length(2, 40);
-            RuleFor(o => o.Header).Length(2, 40);
+            RuleFor(o => o.Header).Length(2, 30);
+            RuleFor(o => o.Body).Length(2, 250);
      
 		}
     }

@@ -1,5 +1,6 @@
 ﻿using Application.Contexts;
 using Domain.Articulos;
+using Domain.Comentarios;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,8 +18,11 @@ namespace Persistence.Contexts
         }
         public DbSet<Articulo> Articulos { get; set; }
 
-     
-        public void Save()
+		public DbSet<Comentario> Comentarios { get; set; }
+
+
+
+		public void Save()
         {
             this.SaveChanges();
         }

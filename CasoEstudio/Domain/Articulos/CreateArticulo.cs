@@ -13,7 +13,7 @@ namespace Domain.Articulos
 		public string Header { get; set; }
 
 		[Required(AllowEmptyStrings = false)]
-		public string Title { get; set; }
+		public string Body { get; set; }
 
 
     }

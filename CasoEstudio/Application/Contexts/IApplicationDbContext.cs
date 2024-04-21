@@ -1,5 +1,6 @@
 ﻿
 using Domain.Articulos;
+using Domain.Comentarios;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,9 @@ namespace Application.Contexts
     public interface IApplicationDbContext
     {
         DbSet<Articulo> Articulos { get; set; }
-    
-        void Save();
+		DbSet<Comentario> Comentarios { get; set; }
+
+
+		void Save();
     }
 }

@@ -31,9 +31,21 @@ namespace Api.Controllers
             return StatusCode(StatusCodes.Status500InternalServerError);
         }
 
-        
+		[HttpGet("withcomments")]
+		public IActionResult ListWithComments()
+		{
+			var result = _service.List(true);
 
-        [HttpPost]
+			if (result.IsSuccess)
+			{
+				return Ok(result.Value);
+			}
+
+			return StatusCode(StatusCodes.Status500InternalServerError);
+		}
+
+
+		[HttpPost]
         public IActionResult Create([FromBody] CreateArticulo articulo)
         {
             var result = _service.Create(articulo);

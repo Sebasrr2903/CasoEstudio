@@ -61,3 +61,25 @@ C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstud
 C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\bin\Debug\net8.0\Shared.dll
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\bin\Debug\net8.0\Application.pdb
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\bin\Debug\net8.0\Shared.pdb
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

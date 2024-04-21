@@ -749,19 +749,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\seba2\\.nuget\\packages\\": {}
+    "C:\\Users\\tagg_\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\seba2\\OneDrive\\Documentos\\Cuatrimestres\\CUA4\\Programacion WEB\\CasoEstudio2\\Nueva carpeta\\CasoEstudio\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\seba2\\OneDrive\\Documentos\\Cuatrimestres\\CUA4\\Programacion WEB\\CasoEstudio2\\Nueva carpeta\\CasoEstudio\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\seba2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\seba2\\OneDrive\\Documentos\\Cuatrimestres\\CUA4\\Programacion WEB\\CasoEstudio2\\Nueva carpeta\\CasoEstudio\\Application\\obj\\",
+      "projectPath": "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\tagg_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\seba2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tagg_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -769,17 +774,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\seba2\\OneDrive\\Documentos\\Cuatrimestres\\CUA4\\Programacion WEB\\CasoEstudio2\\Nueva carpeta\\CasoEstudio\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\seba2\\OneDrive\\Documentos\\Cuatrimestres\\CUA4\\Programacion WEB\\CasoEstudio2\\Nueva carpeta\\CasoEstudio\\Domain\\Domain.csproj"
+            "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\seba2\\OneDrive\\Documentos\\Cuatrimestres\\CUA4\\Programacion WEB\\CasoEstudio2\\Nueva carpeta\\CasoEstudio\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\seba2\\OneDrive\\Documentos\\Cuatrimestres\\CUA4\\Programacion WEB\\CasoEstudio2\\Nueva carpeta\\CasoEstudio\\Shared\\Shared.csproj"
+            "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\Shared.csproj"
             }
           }
         }
@@ -836,7 +842,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

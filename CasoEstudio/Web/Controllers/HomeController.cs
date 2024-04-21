@@ -34,6 +34,7 @@ namespace Web.Controllers
             var Articulos = await _client.List();
             return View(Articulos);
         }
+
         [Authorize]
         [HttpGet]
         public IActionResult Create()

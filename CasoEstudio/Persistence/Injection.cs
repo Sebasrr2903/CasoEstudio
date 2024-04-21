@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Application.Comentarios;
+using Domain.Comentarios;
 
 namespace Persistence
 {
@@ -27,7 +29,9 @@ namespace Persistence
 
             services.AddRepository<Articulo, IArticuloRepository, ArticuloRepository>();
 
-            return services;
+			services.AddRepository<Comentario, IComentarioRepository, ComentarioRepository>();
+
+			return services;
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Application.Articulos
 
             CreateMap<Articulo, ArticuloDTO>()
                 .ConstructUsing(source => 
-                    new ArticuloDTO(source.Id, source.Title, source.Header));
+                    new ArticuloDTO(source.Id, source.Header, source.Body));
         
 		}
 

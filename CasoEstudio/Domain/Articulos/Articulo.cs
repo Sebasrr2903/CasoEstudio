@@ -1,4 +1,5 @@
 ﻿
+using Domain.Comentarios;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
@@ -12,13 +13,13 @@ namespace Domain.Articulos
         }
 
         public static Articulo Create
-            (int id, string title, string header)
+            (int id, string header, string body)
         {
             return new()
             {
                 Id = id,
-                Title = title,
-                Header = header
+                Header = header,
+                Body = body,
                
             };
         }
@@ -28,8 +29,8 @@ namespace Domain.Articulos
             return new()
             {
                 Id = id,
-                Title = Articulo.Title,
                 Header = Articulo.Header,
+                Body = Articulo.Body,
 				
            
             };
@@ -41,18 +42,23 @@ namespace Domain.Articulos
         public int Id { get; set; } 
 
         [Required(AllowEmptyStrings = false)]
-        [StringLength(10, MinimumLength = 5)]
-		[JsonInclude]
-		[JsonPropertyName("title")]
-        public string Title { get; private set; }
-
-        [Required(AllowEmptyStrings = false)]
-        [StringLength(100, MinimumLength = 2)]
+        [StringLength(30, MinimumLength = 5)]
 		[JsonInclude]
 		[JsonPropertyName("header")]
-        public string  Header { get; private set; }
+        public string Header { get; private set; }
 
-       
-     
-    }
+        [Required(AllowEmptyStrings = false)]
+        [StringLength(250, MinimumLength = 2)]
+		[JsonInclude]
+		[JsonPropertyName("body")]
+        public string  Body { get; private set; }
+
+
+		[JsonInclude]
+		[JsonPropertyName("comments")]
+		public List<Comentario> Comentario { get; set; }
+
+
+
+	}
 }

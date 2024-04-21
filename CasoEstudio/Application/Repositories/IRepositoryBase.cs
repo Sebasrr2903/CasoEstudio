@@ -11,9 +11,9 @@ namespace Application.Repositories
     public interface IRepositoryBase<T>
         where T : Entity
     {
-        List<T> GetAll();
+		List<T> GetAll(params Expression<Func<T, object>>[] includes);
 
-        void Insert(T entity);
+		void Insert(T entity);
 
  
 

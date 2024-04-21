@@ -15,9 +15,12 @@ namespace Application.Articulos
             _mapper = mapper;
         }
 
-        public Result<IList<Articulo>> List()
-        {
-            return Result.Success<IList<Articulo>>(_repository.GetAll());
+        public Result<IList<Articulo>> List(bool includeComments = false)
+		{
+			return
+				includeComments
+					? Result.Success<IList<Articulo>>(_repository.GetAll(i => i.Comentario))
+					: Result.Success<IList<Articulo>>(_repository.GetAll());
 		}
 
      
