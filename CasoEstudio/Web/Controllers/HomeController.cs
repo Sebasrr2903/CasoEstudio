@@ -1,6 +1,8 @@
 using Application.Articulos;
+using Application.Comentarios;
 using AutoMapper;
 using Domain.Articulos;
+using Domain.Comentarios;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +15,12 @@ namespace Web.Controllers
     public class HomeController : Controller
     {
 		private readonly IValidator<CreateArticulo> _createValidator;
+        private readonly IValidator<CreateComentario> _createComentarioValidator;
+
         private readonly IArticuloClient _client;
+        private readonly IComentarioClient _comentarioClient;
+
+
         private readonly IMapper _mapper;
 
         public HomeController(
@@ -56,6 +63,31 @@ namespace Web.Controllers
             else
             {
                 var res = await _client.Create(model);
+                if (res.IsSuccess)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+
+                ModelState.AddModelError(string.Empty, res.Error.description);
+            }
+
+
+            return View(model);
+        }
+
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> CreateComment(CreateComentario model)
+        {
+            var result = await _createComentarioValidator.ValidateAsync(model);
+
+            if (!result.IsValid)
+            {
+                result.AddToModelState(ModelState);
+            }
+            else
+            {
+                var res = await _comentarioClient.Create(model);
                 if (res.IsSuccess)
                 {
                     return RedirectToAction(nameof(Index));

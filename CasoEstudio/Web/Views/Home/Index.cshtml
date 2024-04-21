@@ -36,11 +36,14 @@
 
         </div>
         <div class="card-header">
-            Comentarios 
             @if (SignInManager.IsSignedIn(User))
             {
-                <a class="btn btn-success" asp-controller="Articulos" asp-action="Create">Crear Comentario</a>
+                <form id="comentarioForm">
+                    <textarea class="mb-1 mt-1" style="width: 100%;" id="comentarioInput" rows="2" MaxLength="100" placeholder ="Escribe tu comentario"></textarea>
+                    <button id="submitButton" class="btn btn-success mb-1" type="submit" data-articulo-id="@Articulo.Id">Comentar</button>
+                </form>
             }
+            Comentarios            
         </div>
         
             @if (Articulo.Comentario != null && Articulo.Comentario.Any())
@@ -76,23 +79,50 @@
 
         $('#likeButton').click(function () {
             if (!hasLiked && !hasDisliked) {
-               
                 likeCount++;
                 hasLiked = true;
-
                 $('#likeCount').text(likeCount);
             }
         });
 
-   
         $('#dislikeButton').click(function () {
             if (!hasLiked && !hasDisliked) {
-          
                 dislikeCount++;
                 hasDisliked = true;
- 
                 $('#dislikeCount').text(dislikeCount);
             }
         });
+
+        $('#submitButton').click(function () {
+            let comentario = {
+                fecha: new Date().toISOString(),
+                comment: $('#comentarioInput').val()
+            };
+
+            console.log('Enviando comentario:', comentario);
+
+            fetch('https://localhost:44302/api/comentarios', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                mode: 'cors',
+                body: JSON.stringify(comentario)
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Error en la solicitud');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Comentario creado con éxito:', data);
+                    // Aquí puedes realizar acciones adicionales después de crear el comentario, si es necesario
+                })
+                .catch(error => {
+                    console.error('Error al crear el comentario:', error);
+                });
+        });
     });
+
 </script>
