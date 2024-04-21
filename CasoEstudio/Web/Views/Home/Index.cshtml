@@ -38,7 +38,8 @@
         <div class="card-header">
             @if (SignInManager.IsSignedIn(User))
             {
-                <form id="comentarioForm">
+                <form class="comentarioForm" >
+                    @Articulo.Id;
                     <textarea class="mb-1 mt-1" style="width: 100%;" id="comentarioInput" rows="2" MaxLength="100" placeholder ="Escribe tu comentario"></textarea>
                     <button id="submitButton" class="btn btn-success mb-1" type="submit" data-articulo-id="@Articulo.Id">Comentar</button>
                 </form>
@@ -70,59 +71,74 @@
 }
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <script>
     $(document).ready(function () {
-        let likeCount = 0;
-        let dislikeCount = 0;
-        let hasLiked = false;
-        let hasDisliked = false;
-
-        $('#likeButton').click(function () {
-            if (!hasLiked && !hasDisliked) {
-                likeCount++;
-                hasLiked = true;
-                $('#likeCount').text(likeCount);
-            }
-        });
-
-        $('#dislikeButton').click(function () {
-            if (!hasLiked && !hasDisliked) {
-                dislikeCount++;
-                hasDisliked = true;
-                $('#dislikeCount').text(dislikeCount);
-            }
-        });
-
-        $('#submitButton').click(function () {
-            let comentario = {
-                fecha: new Date().toISOString(),
-                comment: $('#comentarioInput').val()
-            };
-
-            console.log('Enviando comentario:', comentario);
-
-            fetch('https://localhost:44302/api/comentarios', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                mode: 'cors',
-                body: JSON.stringify(comentario)
-            })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Error en la solicitud');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    console.log('Comentario creado con éxito:', data);
-                    // Aquí puedes realizar acciones adicionales después de crear el comentario, si es necesario
-                })
-                .catch(error => {
-                    console.error('Error al crear el comentario:', error);
+        async function enviarComentario(comentarioData) {
+            try {
+                const response = await fetch(`https://localhost:44302/api/comentarios`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    mode: 'cors',
+                    body: JSON.stringify(comentarioData)
                 });
-        });
-    });
 
+                if (!response.ok) {
+                    throw new Error('Error al enviar el comentario');
+                }
+
+                const idComentario = await response.text();
+                return parseInt(idComentario);
+            } catch (error) {
+                console.error('Error al enviar el comentario:', error);
+                throw error;
+            }
+        }
+
+        async function asociarComentarioAlArticulo(idArticulo, idComentario) {
+            try {
+                const response = await fetch(`https://localhost:44302/api/articulos/${idArticulo}/addcomment`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    mode: 'cors',
+                    body: JSON.stringify({ idComment: idComentario })
+                });
+
+                if (response.status !== 201) {
+                    throw new Error('Error al asociar el comentario al artículo');
+                }
+
+                return {};
+            } catch (error) {
+                console.error('Error al asociar el comentario al artículo:', error);
+                throw error;
+            }
+        }
+
+        $('.comentarioForm').submit(async function (event) {
+            event.preventDefault();
+
+            const idArticulo = $(this).find('#submitButton').data('articulo-id');
+            const comentario = $(this).find('#comentarioInput').val();
+
+            try {
+                const idComentario = await enviarComentario({ fecha: new Date().toISOString(), comment: comentario });
+                console.log('Comentario creado con éxito, ID:', idComentario);
+
+                const resultado = await asociarComentarioAlArticulo(idArticulo, idComentario);
+                console.log('Comentario asociado con éxito al artículo');
+
+                window.location.reload();
+
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        });
+
+
+    });
 </script>
