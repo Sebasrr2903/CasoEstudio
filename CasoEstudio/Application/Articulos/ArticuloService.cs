@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Application.Comentarios;
+using AutoMapper;
 using Domain.Articulos;
 using Domain.Comentarios;
 using Shared;
@@ -8,12 +9,14 @@ namespace Application.Articulos
     public class ArticuloService : IArticuloService
     {
         private readonly IArticuloRepository _repository;
+        private readonly IComentarioService _comentarioService;
         private readonly IMapper _mapper;
 
-        public ArticuloService(IArticuloRepository repository, IMapper mapper)
+        public ArticuloService(IArticuloRepository repository, IMapper mapper, IComentarioService comentarioService)
         {
             _repository = repository;
             _mapper = mapper;
+            _comentarioService = comentarioService;
         }
 
         public Result<IList<Articulo>> List(bool includeComments = false)
@@ -47,22 +50,32 @@ namespace Application.Articulos
             return Result.Success();
         }
 
-        public Result AddComment(int id, int idC)
+        public Result AddComment(int id, int idComment)
         {
             // Obtener el artículo
-            var result = Get(id);
+            var result = Get(id, true);
 
             if (!result.IsSuccess)
             {
                 return result;
             }
 
-            var articulo = result.Value;    
+            var articulo = result.Value;
 
-            articulo.Comentario.Add(new Comentario(idC));
+            var comentarioResult = _comentarioService.Get(idComment);
+
+            if (!comentarioResult.IsSuccess)
+            {
+                return Result.Failure<Comentario>(ComentarioErrors.NotFound());
+            }
+
+            //var comentario = comentarioResult.Value;
+
+            articulo.Comentario.Add(new Comentario(idComment));
+
             _repository.Update(articulo);
             _repository.Save();
- 
+
             return Result.Success();
         }
 

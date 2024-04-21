@@ -36,9 +36,9 @@ namespace Application.Comentarios
 
 		}
 
-        public Result<Comentario> Get(int id)
+        public Result<Comentario> Get(int idComment)
         {
-            var comentario = _repository.Get(s => s.Id == id);
+            var comentario = _repository.Get(s => s.IdC == idComment);
 
 			if(comentario == null)
 			{

@@ -15,23 +15,28 @@ namespace Domain.Comentarios
         {            
         }
 
-		public static Comentario Create
-		   (int id, DateTime fecha, string comment)
+        public Comentario(int idC)
+        {
+			IdC = idC;
+        }
+
+        public static Comentario Create
+		   (int idC, DateTime fecha, string comment)
 		{
 			return new()
 			{
-				Id = id,
+				IdC = idC,
 				Fecha = fecha,
 				Comment = comment,
 
 			};
 		}
 
-		public static Comentario Create(int id, Comentario comment)
+		public static Comentario Create(int idC, Comentario comment)
 		{
 			return new()
 			{
-				Id = id,
+				IdC = idC,
 				Fecha = comment.Fecha,
 				Comment = comment.Comment,
 			};
@@ -39,22 +44,22 @@ namespace Domain.Comentarios
 
 		[Key]
 		[JsonInclude]
-		[JsonPropertyName("id")]
-		public int Id { get; set; }
+		[JsonPropertyName("idC")]
+		public int IdC { get; set; }
 
 		[JsonInclude]
 		[JsonPropertyName("fecha")]
-		public DateTime Fecha { get; private set; }
+		public DateTime Fecha { get; set; }
 
 		[Required(AllowEmptyStrings = false)]
 		[StringLength(100, MinimumLength = 5)]
 		[JsonInclude]
-		[JsonPropertyName("comentario")]
-		public string Comment { get; private set; }
+		[JsonPropertyName("comment")]
+		public string Comment { get; set; }
 
 
 		[JsonInclude]
 		[JsonPropertyName("article")]
-		public List<Articulo> Articulo { get; private set; }
+		public List<Articulo> Articulo { get; set; }
 	}
 }

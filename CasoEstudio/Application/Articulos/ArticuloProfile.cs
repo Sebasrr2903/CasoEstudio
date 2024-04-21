@@ -21,7 +21,7 @@ namespace Application.Articulos
 
             CreateMap<AddComment, Comentario>()
                 .ConstructUsing(source =>
-                    new Comentario(source.Id));
+                    new Comentario(source.IdComment));
 
         }
 

@@ -15,6 +15,6 @@ namespace Domain.Comentarios
 		public DateTime Fecha { get; set; }
 
 		[Required(AllowEmptyStrings = false)]
-		public string Comentario { get; set; }
+		public string Comment { get; set; }
 	}
 }

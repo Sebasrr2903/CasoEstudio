@@ -33,8 +33,26 @@ namespace Api.Controllers
             return StatusCode(StatusCodes.Status500InternalServerError);
         }
 
+        [HttpGet]
+        [Route("{id}")]
+        public IActionResult Get([FromRoute] int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+            var result = _service.Get(id);
 
-		[HttpPost]
+            if (result.IsSuccess)
+            {
+                return Ok(result.Value);
+            }
+
+            return NotFound();
+        }
+
+
+        [HttpPost]
         public IActionResult Create([FromBody] CreateComentario comentario)
         {
             var result = _service.Create(comentario);

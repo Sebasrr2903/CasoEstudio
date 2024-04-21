@@ -12,15 +12,15 @@ namespace Domain.Comentarios
 		{
 		}
 
-		public ComentarioDTO(int id, DateTime fecha, string comment)
+		public ComentarioDTO(int idC, DateTime fecha, string coment)
 		{
-			Id = id;
+			IdC = idC;
 			Fecha = fecha;
-			Comentario = comment;
+            Comment = coment;
 		}
 
-		public int Id { get; set; }
+		public int IdC { get; set; }
 		public DateTime Fecha { get; set; }
-		public string Comentario { get; set; }
+		public string Comment { get; set; }
 	}
 }

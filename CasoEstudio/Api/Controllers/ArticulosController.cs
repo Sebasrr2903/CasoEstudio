@@ -31,7 +31,26 @@ namespace Api.Controllers
             return StatusCode(StatusCodes.Status500InternalServerError);
         }
 
-		[HttpGet("withcomments")]
+        [HttpGet]
+        [Route("{id}")]
+        public IActionResult Get([FromRoute] int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+            var result = _service.Get(id);
+
+            if (result.IsSuccess)
+            {
+                return Ok(result.Value);
+            }
+
+            return NotFound();
+        }
+
+
+        [HttpGet("withcomments")]
 		public IActionResult ListWithComments()
 		{
 			var result = _service.List(true);
@@ -63,7 +82,9 @@ namespace Api.Controllers
 
         public IActionResult AddComment([FromRoute] int Id, [FromBody] AddComment comment)
         {
-            var result = _service.AddComment(Id, comment.Id);
+            int idComment = comment.IdComment;
+
+            var result = _service.AddComment(Id, idComment);
 
             return StatusCode(StatusCodes.Status500InternalServerError);
         }
