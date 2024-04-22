@@ -1,6 +1,7 @@
 ﻿using Application.Contexts;
 using Domain.Articulos;
 using Domain.Comentarios;
+using Domain.Likes;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -20,9 +21,12 @@ namespace Persistence.Contexts
 
 		public DbSet<Comentario> Comentarios { get; set; }
 
+        public DbSet<Like> Likes { get; set; }
 
 
-		public void Save()
+
+
+        public void Save()
         {
             this.SaveChanges();
         }

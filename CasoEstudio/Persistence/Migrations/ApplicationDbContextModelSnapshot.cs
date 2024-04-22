@@ -37,6 +37,21 @@ namespace Persistence.Migrations
                     b.ToTable("ArticuloComentario");
                 });
 
+            modelBuilder.Entity("ArticuloLike", b =>
+                {
+                    b.Property<int>("ArticuloId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("LikeIdL")
+                        .HasColumnType("int");
+
+                    b.HasKey("ArticuloId", "LikeIdL");
+
+                    b.HasIndex("LikeIdL");
+
+                    b.ToTable("ArticuloLike");
+                });
+
             modelBuilder.Entity("Domain.Articulos.Articulo", b =>
                 {
                     b.Property<int>("Id")
@@ -87,6 +102,26 @@ namespace Persistence.Migrations
                     b.ToTable("Comentarios");
                 });
 
+            modelBuilder.Entity("Domain.Likes.Like", b =>
+                {
+                    b.Property<int>("IdL")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("Relational:JsonPropertyName", "idL");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdL"));
+
+                    b.Property<string>("Tipo")
+                        .IsRequired()
+                        .HasMaxLength(1)
+                        .HasColumnType("nvarchar(1)")
+                        .HasAnnotation("Relational:JsonPropertyName", "tipo");
+
+                    b.HasKey("IdL");
+
+                    b.ToTable("Likes");
+                });
+
             modelBuilder.Entity("ArticuloComentario", b =>
                 {
                     b.HasOne("Domain.Articulos.Articulo", null)
@@ -98,6 +133,21 @@ namespace Persistence.Migrations
                     b.HasOne("Domain.Comentarios.Comentario", null)
                         .WithMany()
                         .HasForeignKey("ComentarioIdC")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ArticuloLike", b =>
+                {
+                    b.HasOne("Domain.Articulos.Articulo", null)
+                        .WithMany()
+                        .HasForeignKey("ArticuloId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Likes.Like", null)
+                        .WithMany()
+                        .HasForeignKey("LikeIdL")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

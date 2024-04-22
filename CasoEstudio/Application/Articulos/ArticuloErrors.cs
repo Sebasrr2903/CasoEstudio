@@ -19,5 +19,8 @@ namespace Application.Articulos
         public static Error AlreadyDone() =>
         new Error("Articulos.ALREADY_DONE", "The Articulo already has this comment.");
 
+        public static Error AlreadyHasLike() =>
+        new Error("Articulos.ALREADY_DONE", "The Articulo already has this like.");
+
     }
 }

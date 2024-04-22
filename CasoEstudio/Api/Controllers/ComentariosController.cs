@@ -58,12 +58,12 @@ namespace Api.Controllers
             var result = _service.Create(comentario);
             if (result.IsSuccess)
             {
-				//return Created(); ***No funciona***
-				return StatusCode(StatusCodes.Status201Created);
-			}
+                return Ok(result.Value);
+            }
 
             return StatusCode(StatusCodes.Status500InternalServerError);
         }
+
 
     }
 }

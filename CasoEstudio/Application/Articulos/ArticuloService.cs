@@ -1,44 +1,52 @@
 ﻿using Application.Comentarios;
+using Application.Likes;
 using AutoMapper;
 using Domain.Articulos;
 using Domain.Comentarios;
+using Domain.Likes;
 using Shared;
+using System.Xml.Linq;
 
 namespace Application.Articulos
 {
     public class ArticuloService : IArticuloService
     {
         private readonly IArticuloRepository _repository;
+        private readonly ILikeRepository _likeRepository;
+
         private readonly IComentarioService _comentarioService;
+        private readonly ILikeService _likeService;
+
         private readonly IMapper _mapper;
 
-        public ArticuloService(IArticuloRepository repository, IMapper mapper, IComentarioService comentarioService)
+        public ArticuloService(IArticuloRepository repository, IMapper mapper, IComentarioService comentarioService, ILikeService likeService)
         {
             _repository = repository;
             _mapper = mapper;
             _comentarioService = comentarioService;
+            _likeService = likeService;
         }
 
-        public Result<IList<Articulo>> List(bool includeComments = false)
-		{
-			return
-				includeComments
-					? Result.Success<IList<Articulo>>(_repository.GetAll(i => i.Comentario))
-					: Result.Success<IList<Articulo>>(_repository.GetAll());
-		}
-
-        public Result<Articulo> Get(int id, bool includeComments = false)
+        public Result<IList<Articulo>> List(bool includeComments = false, bool includeLikes = false)
         {
-            var articulo =
-                includeComments
-                    ? _repository.Get(s => s.Id == id, i => i.Comentario)
-                    : _repository.Get(s => s.Id == id);
+            return includeComments
+                ? Result.Success<IList<Articulo>>(includeLikes
+                    ? _repository.GetAll(i => i.Comentario, i => i.Like)
+                    : _repository.GetAll(i => i.Comentario))
+                : Result.Success<IList<Articulo>>(includeLikes
+                    ? _repository.GetAll(i => i.Like)
+                    : _repository.GetAll());
+        }
 
-            if (articulo is null)
-            {
-                return Result.Failure<Articulo>(ArticuloErrors.NotFound());
-            }
-            return Result.Success(articulo);
+        public Result<Articulo> Get(int id, bool includeComments = false, bool includeLikes = false)
+        {
+            return includeComments
+                ? Result.Success(includeLikes
+                    ? _repository.Get(s => s.Id == id, i => i.Comentario, i => i.Like)
+                    : _repository.Get(s => s.Id == id, i => i.Comentario))
+                : Result.Success(includeLikes
+                    ? _repository.Get(s => s.Id == id, i => i.Like)
+                    : _repository.Get(s => s.Id == id));
         }
 
 
@@ -79,6 +87,69 @@ namespace Application.Articulos
 
             return Result.Success();
         }
+
+        public Result AddLike(int idArticulo, int idLike)
+        {
+            // Obtener el artículo
+            var result = Get(idArticulo, false, true);
+            if (!result.IsSuccess)
+            {
+                return Result.Failure<Articulo>(ArticuloErrors.NotFound());
+            }
+            var articulo = result.Value as Articulo;
+
+            if (articulo.Like == null)
+            {
+                articulo.Like = new List<Like>();
+            }
+
+            // Verificar si el like ya existe en el artículo
+            var likeExistente = articulo.Like.FirstOrDefault(e => e.IdL == idLike);
+
+            if (likeExistente != null)
+            {
+                // Obtener tipo del nuevo like
+                var likeResult = _likeService.Get(idLike);
+                if (!likeResult.IsSuccess)
+                {
+                    return Result.Failure<Like>(LikeErrors.NotFound());
+                }
+
+                var nuevoLike = likeResult.Value as Like;
+                char tipoNuevo = nuevoLike.Tipo;
+
+                // Si los tipos son diferentes, actualizar el tipo del like existente
+                if (likeExistente.Tipo != tipoNuevo)
+                {
+                    likeExistente.Tipo = tipoNuevo;
+
+                    _likeRepository.Update(likeExistente);
+                    _repository.Update(articulo);
+
+                    _repository.Save();
+
+                    return Result.Success("Tipo de like actualizado con éxito.");
+                }
+                else
+                {
+                    // Si los tipos son iguales, no se realiza ninguna acción
+                    return Result.Failure<Articulo>(ArticuloErrors.AlreadyHasLike());
+                }
+            }
+            else
+            {
+                var resultado = _likeService.Get(idLike);
+
+                var like = resultado.Value as Like;
+                articulo.Like.Add(like);
+
+                _repository.Update(articulo);
+                _repository.Save();
+
+                return Result.Success("Nuevo like agregado al artículo.");
+            }
+        }
+
 
 
 

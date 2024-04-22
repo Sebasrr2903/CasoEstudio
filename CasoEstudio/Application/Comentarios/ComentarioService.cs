@@ -22,12 +22,15 @@ namespace Application.Comentarios
 			_mapper = mapper;
 		}
 
-		public Result Create(CreateComentario createComentario)
+		public Result<int> Create(CreateComentario createComentario)
 		{
 			var comentario = _mapper.Map<CreateComentario, Comentario>(createComentario);
 			_repository.Insert(Comentario.Create(0, comentario));
 			_repository.Save();
-			return Result.Success();
+
+			var comentarioInsertado = _repository.GetAll().LastOrDefault();
+
+			return Result.Success(comentarioInsertado.IdC);
 		}
 
 		public Result<IList<Comentario>> List()

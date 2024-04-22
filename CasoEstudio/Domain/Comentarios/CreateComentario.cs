@@ -11,6 +11,8 @@ namespace Domain.Comentarios
 {
 	public class CreateComentario
 	{
+		public int IdC {  get; set; }
+
 		[Required]
 		public DateTime Fecha { get; set; }
 

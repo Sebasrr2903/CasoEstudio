@@ -63,8 +63,21 @@ namespace Api.Controllers
 			return StatusCode(StatusCodes.Status500InternalServerError);
 		}
 
+        [HttpGet("withlikes")]
+        public IActionResult ListWithLikes()
+        {
+            var result = _service.List(false, true);
 
-		[HttpPost]
+            if (result.IsSuccess)
+            {
+                return Ok(result.Value);
+            }
+
+            return StatusCode(StatusCodes.Status500InternalServerError);
+        }
+
+
+        [HttpPost]
         public IActionResult Create([FromBody] CreateArticulo articulo)
         {
             var result = _service.Create(articulo);
@@ -84,6 +97,23 @@ namespace Api.Controllers
             int idComment = comment.IdComment;
 
             var result = _service.AddComment(Id, idComment);
+
+            if (result.IsSuccess)
+            {
+                return StatusCode(StatusCodes.Status201Created);
+            }
+
+            return StatusCode(StatusCodes.Status500InternalServerError);
+        }
+
+        [HttpPost]
+        [Route("{Id}/addlike")]
+
+        public IActionResult AddLike([FromRoute] int Id, [FromBody] AddLike like)
+        {
+            int idLike = like.IdLike;
+
+            var result = _service.AddLike(Id, idLike);
 
             if (result.IsSuccess)
             {

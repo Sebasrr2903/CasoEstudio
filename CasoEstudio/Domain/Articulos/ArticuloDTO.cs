@@ -1,4 +1,5 @@
 ﻿using Domain.Comentarios;
+using Domain.Likes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,5 +26,8 @@ namespace Domain.Articulos
         public string Body { get;  set; }
 
         public List<ComentarioDTO> Comentario { get; set; }
+
+        public List<LikeDTO> Like { get; set; }
+
     }
 }

@@ -14,6 +14,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Application.Comentarios;
 using Domain.Comentarios;
+using Persistence.Likes;
+using Application.Likes;
+using Domain.Likes;
 
 namespace Persistence
 {
@@ -31,7 +34,10 @@ namespace Persistence
 
 			services.AddRepository<Comentario, IComentarioRepository, ComentarioRepository>();
 
-			return services;
+            services.AddRepository<Like, ILikeRepository, LikeRepository>();
+
+
+            return services;
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿
 using Domain.Articulos;
 using Domain.Comentarios;
+using Domain.Likes;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,10 @@ namespace Application.Contexts
         DbSet<Articulo> Articulos { get; set; }
 		DbSet<Comentario> Comentarios { get; set; }
 
+        DbSet<Like> Likes { get; set; }
 
-		void Save();
+
+
+        void Save();
     }
 }

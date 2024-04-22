@@ -4,6 +4,7 @@ using FluentValidation;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Application.Comentarios;
+using Application.Likes;
 
 namespace Application
 {
@@ -20,9 +21,11 @@ namespace Application
 
 			services.AddScoped<IArticuloService, ArticuloService>();
 			services.AddScoped<IComentarioService, ComentarioService>();
+            services.AddScoped<ILikeService, LikeService>();
 
 
-			services.AddScoped<IIdentityService, IdentityService>();
+
+            services.AddScoped<IIdentityService, IdentityService>();
 
 
 

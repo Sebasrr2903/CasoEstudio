@@ -15,7 +15,7 @@ namespace Application.Comentarios
         Result<Comentario> Get(int Id);
 
 
-        Result Create(CreateComentario createComentario);
+        Result<int> Create(CreateComentario createComentario);
 
 	}
 }

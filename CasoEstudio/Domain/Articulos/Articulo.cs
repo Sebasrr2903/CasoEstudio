@@ -1,5 +1,6 @@
 ﻿
 using Domain.Comentarios;
+using Domain.Likes;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
@@ -59,6 +60,11 @@ namespace Domain.Articulos
 		public List<Comentario> Comentario { get; set; }
 
 
+        [JsonInclude]
+        [JsonPropertyName("likes")]
+        public List<Like> Like { get; set; }
 
-	}
+
+
+    }
 }
