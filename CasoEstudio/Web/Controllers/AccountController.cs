@@ -25,12 +25,14 @@ namespace Web.Controllers
 			if (ModelState.IsValid)
 			{
 				var result = await _accountService.Signin(model.Email, model.Password);
-				if (result.IsSuccess)
-				{
-				  return RedirectToAction("index", "home");
-				}
+                if (result.IsSuccess)
+                {
+                    HttpContext.Session.SetString("Username", model.Email);
 
-				ModelState.AddModelError(string.Empty, result.Error.description);
+                    return RedirectToAction("index", "home");
+                }
+
+                ModelState.AddModelError(string.Empty, result.Error.description);
             }
 
 			return View(model);
