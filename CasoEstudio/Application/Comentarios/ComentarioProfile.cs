@@ -17,7 +17,7 @@ namespace Application.Comentarios
 
 			CreateMap<Comentario, ComentarioDTO>()
 				.ConstructUsing(source =>
-					new ComentarioDTO(source.IdC, source.Fecha, source.Comment));
+					new ComentarioDTO(source.IdC, source.Fecha, source.Comment, source.Username));
 
 		}
 	}

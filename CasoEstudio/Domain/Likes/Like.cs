@@ -21,12 +21,13 @@ namespace Domain.Likes
         }
 
         public static Like Create
-           (int idL, char tipo)
+           (int idL, char tipo, string username)
         {
             return new()
             {
                 IdL = idL,
                 Tipo = tipo,
+                Username = username,
 
             };
         }
@@ -37,6 +38,7 @@ namespace Domain.Likes
             {
                 IdL = idC,
                 Tipo = like.Tipo,
+                Username = like.Username,
             };
         }
 
@@ -50,6 +52,13 @@ namespace Domain.Likes
         [JsonInclude]
         [JsonPropertyName("tipo")]
         public char Tipo { get; set; }
+
+
+        [Required(AllowEmptyStrings = false)]
+        [StringLength(50, MinimumLength = 5)]
+        [JsonInclude]
+        [JsonPropertyName("username")]
+        public string Username { get; set; }
 
 
         [JsonInclude]

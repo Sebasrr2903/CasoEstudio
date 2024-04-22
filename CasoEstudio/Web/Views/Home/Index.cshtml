@@ -3,6 +3,9 @@
 @using Domain.Articulos;
 @model List<ArticuloDTO>
 
+@using Microsoft.AspNetCore.Http;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor;
+
 @{
     ViewData["Title"] = "Articulos";
 }
@@ -39,7 +42,7 @@
             @if (SignInManager.IsSignedIn(User))
             {
                 <form class="comentarioForm" >
-                    @Articulo.Id;
+                    <input type="hidden" id="usernameInput" value="@HttpContextAccessor.HttpContext.Session.GetString("userName")">
                     <textarea class="mb-1 mt-1" style="width: 100%;" id="comentarioInput" rows="2" MaxLength="100" placeholder ="Escribe tu comentario"></textarea>
                     <button id="submitButton" class="btn btn-success mb-1" type="submit" data-articulo-id="@Articulo.Id">Comentar</button>
                 </form>
@@ -52,9 +55,12 @@
                 @foreach (var comentario in Articulo.Comentario)
             {
                 <div class="card-body">
-                    <blockquote class="blockquote mb-0">
-                        <footer class="blockquote-footer">@comentario.Fecha.ToShortDateString() - @comentario.Comment</footer>
-                    </blockquote>
+                    <div class="blockquote mb-0">
+                        <h4 class="font-weight-bold">@comentario.Fecha.ToShortDateString()</h4>
+                    <p class="font-weight-bold">@comentario.Username dijo:</p>
+                        <footer class="blockquote-footer">@comentario.Comment</footer>
+                    </div>
+                    <hr />
                 </div>
                 }
             }
@@ -124,9 +130,10 @@
 
             const idArticulo = $(this).find('#submitButton').data('articulo-id');
             const comentario = $(this).find('#comentarioInput').val();
+            const usuario = $(this).find('#usernameInput').val();
 
             try {
-                const idComentario = await enviarComentario({ fecha: new Date().toISOString(), comment: comentario });
+                const idComentario = await enviarComentario({ fecha: new Date().toISOString(), comment: comentario, username: usuario });
                 console.log('Comentario creado con éxito, ID:', idComentario);
 
                 const resultado = await asociarComentarioAlArticulo(idArticulo, idComentario);

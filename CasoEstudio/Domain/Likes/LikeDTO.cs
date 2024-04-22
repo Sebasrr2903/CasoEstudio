@@ -12,15 +12,17 @@ namespace Domain.Likes
         {
         }
 
-        public LikeDTO(int idL, char tipo)
+        public LikeDTO(int idL, char tipo, string username)
         {
             IdL = idL;
             Tipo = tipo;
+            Username = username;
 
         }
 
         public int IdL { get; set; }
         public char Tipo { get; set; }
+        public string Username { get; set; }
 
     }
 }

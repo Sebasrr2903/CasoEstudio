@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5R1dIVrSDsNPUq+bF5MKhKSCbDmB5ANzg4/P5MsLvoqT5fv3sBEgTm89SabbzThrDrPwI+7B+rrhOE1LKk1DPQ==",
+  "dgSpecHash": "emfu8vIP+5fHxy3IRxCnMaOkMM9Z0CkovlMEZP81da2HZtcqmktcJFPRAkNfo5diyXl+hnh1ZF/ZAMHXu0eiMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\tagg_\\source\\repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tagg_\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\tagg_\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

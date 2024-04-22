@@ -11,6 +11,7 @@ namespace Application.Comentarios
 		{
 	
 			RuleFor(o => o.Comment).Length(5, 100);
+			RuleFor(o => o.Username).Length(5, 50);
 
 		}
 	}

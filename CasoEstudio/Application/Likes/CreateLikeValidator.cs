@@ -12,7 +12,9 @@ namespace Application.Comentarios
 		{
 	
 			RuleFor(o => o.Tipo).NotEmpty();
+            RuleFor(o => o.Username).Length(5, 50);
 
-		}
-	}
+
+        }
+    }
 }

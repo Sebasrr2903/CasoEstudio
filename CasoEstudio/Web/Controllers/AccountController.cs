@@ -8,7 +8,10 @@ namespace Web.Controllers
 	{
 		private readonly IAccountService _accountService;
 
-		public AccountController(IAccountService accountService)
+
+        public const string SessionKeyName = "userName";
+
+        public AccountController(IAccountService accountService)
 		{
 			_accountService = accountService;
 		}
@@ -27,7 +30,7 @@ namespace Web.Controllers
 				var result = await _accountService.Signin(model.Email, model.Password);
                 if (result.IsSuccess)
                 {
-                    HttpContext.Session.SetString("Username", model.Email);
+                    HttpContext.Session.SetString("userName", model.Email);
 
                     return RedirectToAction("index", "home");
                 }

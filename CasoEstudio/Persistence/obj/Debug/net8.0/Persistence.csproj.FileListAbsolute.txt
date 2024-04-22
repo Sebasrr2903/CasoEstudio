@@ -162,25 +162,25 @@ C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstud
 C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.pdb
 C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
 C:\Users\seba2\OneDrive\Documentos\Cuatrimestres\CUA4\Programacion WEB\CasoEstudio2\Nueva carpeta\CasoEstudio\Persistence\obj\Debug\net8.0\ref\Persistence.dll
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.deps.json
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.dll
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.pdb
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Application.dll
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Domain.dll
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Shared.dll
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Application.pdb
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Domain.pdb
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Shared.pdb
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.dll
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\refint\Persistence.dll
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.pdb
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
-C:\Users\tagg_\Source\Repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Application.dll
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Shared.dll
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\bin\Debug\net8.0\Shared.pdb
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\Users\tagg_\source\repos\CasoEstudioWebAvanzada\CasoEstudio\Persistence\obj\Debug\net8.0\ref\Persistence.dll

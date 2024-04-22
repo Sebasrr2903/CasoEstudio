@@ -18,5 +18,8 @@ namespace Domain.Comentarios
 
 		[Required(AllowEmptyStrings = false)]
 		public string Comment { get; set; }
-	}
+
+        [Required(AllowEmptyStrings = false)]
+        public string Username { get; set; }
+    }
 }

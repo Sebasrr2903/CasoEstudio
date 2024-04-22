@@ -14,5 +14,8 @@ namespace Domain.Likes
         [Required(AllowEmptyStrings = false)]
         public char Tipo { get; set; }
 
+        [Required(AllowEmptyStrings = false)]
+        public string Username { get; set; }
+
     }
 }

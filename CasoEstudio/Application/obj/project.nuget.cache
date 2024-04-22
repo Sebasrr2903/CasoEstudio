@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xBu4vC89csjOp8mAA+WM8ZENnFdjbPPrqMQzkF6P4LhNghvfA9bdGPyfbsBWn2bBbiHzEjwGQWNenuhQ7uQ5RQ==",
+  "dgSpecHash": "X8hMKEkTV+yHr7AleL9CVihfB58Ivk8gF7zQcusm34lu2hsmyu1UZPgGeWii0wBgGPkqGWZn/4EQrQC71WUnBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\tagg_\\source\\repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tagg_\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\tagg_\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",

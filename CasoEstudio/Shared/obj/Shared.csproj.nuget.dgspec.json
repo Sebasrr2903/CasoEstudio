@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\Shared.csproj": {}
+    "C:\\Users\\tagg_\\source\\repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\Shared.csproj": {
+    "C:\\Users\\tagg_\\source\\repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\tagg_\\source\\repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\tagg_\\source\\repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\tagg_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\tagg_\\source\\repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

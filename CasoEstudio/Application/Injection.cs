@@ -18,8 +18,11 @@ namespace Application
 			services.AddAutoMapper(typeof(ComentarioProfile));
 			services.AddValidatorsFromAssemblies(new[] { typeof(CreateComentarioValidator).Assembly });
 
+            services.AddAutoMapper(typeof(LikeProfile));
+            services.AddValidatorsFromAssemblies(new[] { typeof(CreateLikeValidator).Assembly });
 
-			services.AddScoped<IArticuloService, ArticuloService>();
+
+            services.AddScoped<IArticuloService, ArticuloService>();
 			services.AddScoped<IComentarioService, ComentarioService>();
             services.AddScoped<ILikeService, LikeService>();
 

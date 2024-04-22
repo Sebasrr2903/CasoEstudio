@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X8asV+xaoy7dEmZJXnmIdI6/QXBOI6TKvyCAAEGH0APun6vJGrLw/Is+qZdiQZSkOBY066cNNTk+TB+HZQbzqA==",
+  "dgSpecHash": "Mf3xqEgaPCI3W2/huBdfdsUX9DqnNn9IV2y74j9jTeUega900PeMaugZvpLIKbFreoWgWPH3Oeuq2iyPRVALKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tagg_\\Source\\Repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\tagg_\\source\\repos\\CasoEstudioWebAvanzada\\CasoEstudio\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tagg_\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\tagg_\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

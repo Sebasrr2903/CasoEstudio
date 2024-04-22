@@ -18,7 +18,7 @@ namespace Application.Likes
 
 			CreateMap<Like, LikeDTO>()
 				.ConstructUsing(source =>
-					new LikeDTO(source.IdL, source.Tipo));
+					new LikeDTO(source.IdL, source.Tipo, source.Username));
 
 		}
 	}
